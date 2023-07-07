@@ -1,0 +1,44 @@
+[6.265s] Invoking command in '/juno/ros2_ws/build/juno_controller': PYTHONPATH=/juno/ros2_ws/build/juno_controller/prefix_override:/juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /juno/ros2_ws/build/juno_controller/build
+[7.935s] running develop
+[8.890s] Removing /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno-controller.egg-link (link to .)
+[9.011s] Invoked command in '/juno/ros2_ws/build/juno_controller' returned '0': PYTHONPATH=/juno/ros2_ws/build/juno_controller/prefix_override:/juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /juno/ros2_ws/build/juno_controller/build
+[9.018s] Invoking command in '/juno/ros2_ws/src/juno_controller': PYTHONPATH=/juno/ros2_ws/build/juno_controller/prefix_override:/juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/juno_controller build --build-base /juno/ros2_ws/build/juno_controller/build install --record /juno/ros2_ws/build/juno_controller/install.log --single-version-externally-managed
+[10.550s] running egg_info
+[10.554s] writing ../../build/juno_controller/juno_controller.egg-info/PKG-INFO
+[10.556s] writing dependency_links to ../../build/juno_controller/juno_controller.egg-info/dependency_links.txt
+[10.557s] writing entry points to ../../build/juno_controller/juno_controller.egg-info/entry_points.txt
+[10.557s] writing requirements to ../../build/juno_controller/juno_controller.egg-info/requires.txt
+[10.558s] writing top-level names to ../../build/juno_controller/juno_controller.egg-info/top_level.txt
+[10.565s] reading manifest file '../../build/juno_controller/juno_controller.egg-info/SOURCES.txt'
+[10.572s] writing manifest file '../../build/juno_controller/juno_controller.egg-info/SOURCES.txt'
+[10.573s] running build
+[10.573s] running build_py
+[10.574s] copying juno_controller/__init__.py -> /juno/ros2_ws/build/juno_controller/build/lib/juno_controller
+[10.575s] copying juno_controller/camera_node.py -> /juno/ros2_ws/build/juno_controller/build/lib/juno_controller
+[10.575s] copying juno_controller/drivetrain_node.py -> /juno/ros2_ws/build/juno_controller/build/lib/juno_controller
+[10.576s] running install
+[10.577s] running install_lib
+[10.582s] creating /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller
+[10.583s] copying /juno/ros2_ws/build/juno_controller/build/lib/juno_controller/__init__.py -> /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller
+[10.584s] copying /juno/ros2_ws/build/juno_controller/build/lib/juno_controller/drivetrain.py -> /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller
+[10.584s] copying /juno/ros2_ws/build/juno_controller/build/lib/juno_controller/config.py -> /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller
+[10.585s] copying /juno/ros2_ws/build/juno_controller/build/lib/juno_controller/camera_node.py -> /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller
+[10.585s] copying /juno/ros2_ws/build/juno_controller/build/lib/juno_controller/motor.py -> /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller
+[10.586s] copying /juno/ros2_ws/build/juno_controller/build/lib/juno_controller/drivetrain_node.py -> /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller
+[10.586s] copying /juno/ros2_ws/build/juno_controller/build/lib/juno_controller/settings.py -> /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller
+[10.587s] byte-compiling /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller/__init__.py to __init__.cpython-36.pyc
+[10.588s] byte-compiling /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller/drivetrain.py to drivetrain.cpython-36.pyc
+[10.593s] byte-compiling /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller/config.py to config.cpython-36.pyc
+[10.595s] byte-compiling /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller/camera_node.py to camera_node.cpython-36.pyc
+[10.596s] byte-compiling /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller/motor.py to motor.cpython-36.pyc
+[10.598s] byte-compiling /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller/drivetrain_node.py to drivetrain_node.cpython-36.pyc
+[10.602s] byte-compiling /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller/settings.py to settings.cpython-36.pyc
+[10.604s] running install_data
+[10.607s] copying package.xml -> /juno/ros2_ws/install/juno_controller/share/juno_controller
+[10.608s] running install_egg_info
+[10.617s] Copying ../../build/juno_controller/juno_controller.egg-info to /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller-0.0.0-py3.6.egg-info
+[10.620s] running install_scripts
+[10.703s] Installing camera_node script to /juno/ros2_ws/install/juno_controller/lib/juno_controller
+[10.705s] Installing drivetrain_node script to /juno/ros2_ws/install/juno_controller/lib/juno_controller
+[10.706s] writing list of installed files to '/juno/ros2_ws/build/juno_controller/install.log'
+[10.827s] Invoked command in '/juno/ros2_ws/src/juno_controller' returned '0': PYTHONPATH=/juno/ros2_ws/build/juno_controller/prefix_override:/juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/juno_controller build --build-base /juno/ros2_ws/build/juno_controller/build install --record /juno/ros2_ws/build/juno_controller/install.log --single-version-externally-managed

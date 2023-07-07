@@ -1,0 +1,22 @@
+[4.526s] Invoking command in '/juno/ros2_ws/src/juno_controller': PYTHONPATH=/juno/ros2_ws/src/build/juno_controller/prefix_override:/juno/ros2_ws/src/install/juno_controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/juno_controller build --build-base /juno/ros2_ws/src/build/juno_controller/build install --record /juno/ros2_ws/src/build/juno_controller/install.log --single-version-externally-managed
+[6.134s] running egg_info
+[6.139s] writing ../build/juno_controller/juno_controller.egg-info/PKG-INFO
+[6.140s] writing dependency_links to ../build/juno_controller/juno_controller.egg-info/dependency_links.txt
+[6.141s] writing entry points to ../build/juno_controller/juno_controller.egg-info/entry_points.txt
+[6.142s] writing requirements to ../build/juno_controller/juno_controller.egg-info/requires.txt
+[6.142s] writing top-level names to ../build/juno_controller/juno_controller.egg-info/top_level.txt
+[6.150s] reading manifest file '../build/juno_controller/juno_controller.egg-info/SOURCES.txt'
+[6.156s] writing manifest file '../build/juno_controller/juno_controller.egg-info/SOURCES.txt'
+[6.157s] running build
+[6.157s] running build_py
+[6.158s] running install
+[6.160s] running install_lib
+[6.166s] running install_data
+[6.169s] running install_egg_info
+[6.179s] removing '/juno/ros2_ws/src/install/juno_controller/lib/python3.6/site-packages/juno_controller-0.0.0-py3.6.egg-info' (and everything under it)
+[6.181s] Copying ../build/juno_controller/juno_controller.egg-info to /juno/ros2_ws/src/install/juno_controller/lib/python3.6/site-packages/juno_controller-0.0.0-py3.6.egg-info
+[6.184s] running install_scripts
+[6.278s] Installing camera_node script to /juno/ros2_ws/src/install/juno_controller/lib/juno_controller
+[6.279s] Installing drivetrain_node script to /juno/ros2_ws/src/install/juno_controller/lib/juno_controller
+[6.290s] writing list of installed files to '/juno/ros2_ws/src/build/juno_controller/install.log'
+[6.404s] Invoked command in '/juno/ros2_ws/src/juno_controller' returned '0': PYTHONPATH=/juno/ros2_ws/src/build/juno_controller/prefix_override:/juno/ros2_ws/src/install/juno_controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/juno_controller build --build-base /juno/ros2_ws/src/build/juno_controller/build install --record /juno/ros2_ws/src/build/juno_controller/install.log --single-version-externally-managed

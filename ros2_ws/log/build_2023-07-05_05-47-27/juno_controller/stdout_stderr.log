@@ -1,0 +1,31 @@
+running egg_info
+writing ../../build/juno_controller/juno_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/juno_controller/juno_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/juno_controller/juno_controller.egg-info/entry_points.txt
+writing requirements to ../../build/juno_controller/juno_controller.egg-info/requires.txt
+writing top-level names to ../../build/juno_controller/juno_controller.egg-info/top_level.txt
+reading manifest file '../../build/juno_controller/juno_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/juno_controller/juno_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying juno_controller/drivetrain.py -> /juno/ros2_ws/build/juno_controller/build/lib/juno_controller
+copying juno_controller/config.py -> /juno/ros2_ws/build/juno_controller/build/lib/juno_controller
+copying juno_controller/motor.py -> /juno/ros2_ws/build/juno_controller/build/lib/juno_controller
+copying juno_controller/settings.py -> /juno/ros2_ws/build/juno_controller/build/lib/juno_controller
+running install
+running install_lib
+copying /juno/ros2_ws/build/juno_controller/build/lib/juno_controller/drivetrain.py -> /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller
+copying /juno/ros2_ws/build/juno_controller/build/lib/juno_controller/config.py -> /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller
+copying /juno/ros2_ws/build/juno_controller/build/lib/juno_controller/motor.py -> /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller
+copying /juno/ros2_ws/build/juno_controller/build/lib/juno_controller/settings.py -> /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller
+byte-compiling /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller/drivetrain.py to drivetrain.cpython-36.pyc
+byte-compiling /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller/config.py to config.cpython-36.pyc
+byte-compiling /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller/motor.py to motor.cpython-36.pyc
+byte-compiling /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller/settings.py to settings.cpython-36.pyc
+running install_data
+copying package.xml -> /juno/ros2_ws/install/juno_controller/share/juno_controller
+running install_egg_info
+removing '/juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller-0.0.0-py3.6.egg-info' (and everything under it)
+Copying ../../build/juno_controller/juno_controller.egg-info to /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno_controller-0.0.0-py3.6.egg-info
+running install_scripts
+writing list of installed files to '/juno/ros2_ws/build/juno_controller/install.log'

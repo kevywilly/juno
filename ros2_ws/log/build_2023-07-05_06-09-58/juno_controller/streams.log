@@ -1,0 +1,17 @@
+[4.469s] Invoking command in '/juno/ros2_ws/build/juno_controller': PYTHONPATH=/juno/ros2_ws/build/juno_controller/prefix_override:/juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /juno/ros2_ws/build/juno_controller/build --no-deps install_data
+[6.183s] running develop
+[7.169s] running egg_info
+[7.170s] writing juno_controller.egg-info/PKG-INFO
+[7.172s] writing dependency_links to juno_controller.egg-info/dependency_links.txt
+[7.172s] writing entry points to juno_controller.egg-info/entry_points.txt
+[7.173s] writing requirements to juno_controller.egg-info/requires.txt
+[7.173s] writing top-level names to juno_controller.egg-info/top_level.txt
+[7.181s] reading manifest file 'juno_controller.egg-info/SOURCES.txt'
+[7.188s] writing manifest file 'juno_controller.egg-info/SOURCES.txt'
+[7.459s] running build_ext
+[7.460s] Creating /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno-controller.egg-link (link to .)
+[7.463s] Installing drivetrain_node script to /juno/ros2_ws/install/juno_controller/lib/juno_controller
+[7.464s] 
+[7.465s] Installed /juno/ros2_ws/build/juno_controller
+[7.466s] running install_data
+[7.610s] Invoked command in '/juno/ros2_ws/build/juno_controller' returned '0': PYTHONPATH=/juno/ros2_ws/build/juno_controller/prefix_override:/juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /juno/ros2_ws/build/juno_controller/build --no-deps install_data

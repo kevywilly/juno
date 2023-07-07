@@ -1,0 +1,22 @@
+[4.149s] Invoking command in '/juno/ros2_ws/build/juno_controller': PYTHONPATH=/juno/ros2_ws/build/juno_controller/prefix_override:/juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /juno/ros2_ws/build/juno_controller/build --no-deps install_data
+[5.794s] running develop
+[5.797s] /usr/local/lib/python3.6/dist-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.798s]   EasyInstallDeprecationWarning,
+[5.804s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.804s]   setuptools.SetuptoolsDeprecationWarning,
+[6.724s] running egg_info
+[6.726s] writing juno_controller.egg-info/PKG-INFO
+[6.727s] writing dependency_links to juno_controller.egg-info/dependency_links.txt
+[6.727s] writing entry points to juno_controller.egg-info/entry_points.txt
+[6.728s] writing requirements to juno_controller.egg-info/requires.txt
+[6.729s] writing top-level names to juno_controller.egg-info/top_level.txt
+[6.735s] reading manifest file 'juno_controller.egg-info/SOURCES.txt'
+[6.741s] writing manifest file 'juno_controller.egg-info/SOURCES.txt'
+[6.951s] running build_ext
+[6.953s] Creating /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno-controller.egg-link (link to .)
+[6.956s] Installing camera_node script to /juno/ros2_ws/install/juno_controller/lib/juno_controller
+[6.957s] Installing drivetrain_node script to /juno/ros2_ws/install/juno_controller/lib/juno_controller
+[6.958s] 
+[6.958s] Installed /juno/ros2_ws/build/juno_controller
+[6.959s] running install_data
+[7.106s] Invoked command in '/juno/ros2_ws/build/juno_controller' returned '0': PYTHONPATH=/juno/ros2_ws/build/juno_controller/prefix_override:/juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /juno/ros2_ws/build/juno_controller/build --no-deps install_data

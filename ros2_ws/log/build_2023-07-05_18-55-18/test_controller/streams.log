@@ -1,0 +1,16 @@
+[6.557s] Invoking command in '/juno/ros2_ws/build/test_controller': PYTHONPATH=/juno/ros2_ws/build/test_controller/prefix_override:/juno/ros2_ws/install/test_controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /juno/ros2_ws/build/test_controller/build --no-deps install_data
+[8.295s] running develop
+[9.282s] running egg_info
+[9.283s] writing test_controller.egg-info/PKG-INFO
+[9.288s] writing dependency_links to test_controller.egg-info/dependency_links.txt
+[9.290s] writing entry points to test_controller.egg-info/entry_points.txt
+[9.295s] writing requirements to test_controller.egg-info/requires.txt
+[9.298s] writing top-level names to test_controller.egg-info/top_level.txt
+[9.299s] reading manifest file 'test_controller.egg-info/SOURCES.txt'
+[9.300s] writing manifest file 'test_controller.egg-info/SOURCES.txt'
+[9.557s] running build_ext
+[9.557s] Creating /juno/ros2_ws/install/test_controller/lib/python3.6/site-packages/test-controller.egg-link (link to .)
+[9.562s] 
+[9.565s] Installed /juno/ros2_ws/build/test_controller
+[9.566s] running install_data
+[9.729s] Invoked command in '/juno/ros2_ws/build/test_controller' returned '0': PYTHONPATH=/juno/ros2_ws/build/test_controller/prefix_override:/juno/ros2_ws/install/test_controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /juno/ros2_ws/build/test_controller/build --no-deps install_data

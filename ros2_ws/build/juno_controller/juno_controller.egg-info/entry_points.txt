@@ -1,0 +1,4 @@
+[console_scripts]
+drivetrain = juno_controller.drivetrain_node:main
+vision = juno_controller.vision_node:main
+

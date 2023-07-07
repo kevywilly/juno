@@ -1,0 +1,145 @@
+[0.000000] (-) TimerEvent: {}
+[0.002191] (juno_controller) JobQueued: {'identifier': 'juno_controller', 'dependencies': OrderedDict()}
+[0.003109] (test_controller) JobQueued: {'identifier': 'test_controller', 'dependencies': OrderedDict()}
+[0.003319] (juno_controller) JobStarted: {'identifier': 'juno_controller'}
+[0.103118] (-) TimerEvent: {}
+[0.213355] (-) TimerEvent: {}
+[0.231280] (test_controller) JobStarted: {'identifier': 'test_controller'}
+[0.318548] (-) TimerEvent: {}
+[0.425486] (-) TimerEvent: {}
+[0.526773] (-) TimerEvent: {}
+[0.627879] (-) TimerEvent: {}
+[0.728680] (-) TimerEvent: {}
+[0.829915] (-) TimerEvent: {}
+[0.931342] (-) TimerEvent: {}
+[1.032462] (-) TimerEvent: {}
+[1.133637] (-) TimerEvent: {}
+[1.235110] (-) TimerEvent: {}
+[1.336164] (-) TimerEvent: {}
+[1.436910] (-) TimerEvent: {}
+[1.537690] (-) TimerEvent: {}
+[1.638458] (-) TimerEvent: {}
+[1.739237] (-) TimerEvent: {}
+[1.840008] (-) TimerEvent: {}
+[1.940769] (-) TimerEvent: {}
+[2.041885] (-) TimerEvent: {}
+[2.142695] (-) TimerEvent: {}
+[2.247009] (-) TimerEvent: {}
+[2.358394] (-) TimerEvent: {}
+[2.459844] (-) TimerEvent: {}
+[2.560605] (-) TimerEvent: {}
+[2.661410] (-) TimerEvent: {}
+[2.762164] (-) TimerEvent: {}
+[2.862925] (-) TimerEvent: {}
+[2.963684] (-) TimerEvent: {}
+[3.064444] (-) TimerEvent: {}
+[3.165249] (-) TimerEvent: {}
+[3.266026] (-) TimerEvent: {}
+[3.366778] (-) TimerEvent: {}
+[3.467543] (-) TimerEvent: {}
+[3.568324] (-) TimerEvent: {}
+[3.671569] (-) TimerEvent: {}
+[3.772846] (-) TimerEvent: {}
+[3.873702] (-) TimerEvent: {}
+[3.975235] (-) TimerEvent: {}
+[4.076075] (-) TimerEvent: {}
+[4.176928] (-) TimerEvent: {}
+[4.280742] (-) TimerEvent: {}
+[4.381959] (-) TimerEvent: {}
+[4.483474] (-) TimerEvent: {}
+[4.584789] (-) TimerEvent: {}
+[4.685937] (-) TimerEvent: {}
+[4.786730] (-) TimerEvent: {}
+[4.889634] (-) TimerEvent: {}
+[4.990748] (-) TimerEvent: {}
+[5.091544] (-) TimerEvent: {}
+[5.192613] (-) TimerEvent: {}
+[5.293771] (-) TimerEvent: {}
+[5.395549] (-) TimerEvent: {}
+[5.496671] (-) TimerEvent: {}
+[5.598281] (-) TimerEvent: {}
+[5.699050] (-) TimerEvent: {}
+[5.799844] (-) TimerEvent: {}
+[5.900932] (-) TimerEvent: {}
+[6.001780] (-) TimerEvent: {}
+[6.103231] (-) TimerEvent: {}
+[6.205173] (-) TimerEvent: {}
+[6.306283] (-) TimerEvent: {}
+[6.408138] (-) TimerEvent: {}
+[6.510672] (-) TimerEvent: {}
+[6.611898] (-) TimerEvent: {}
+[6.713103] (-) TimerEvent: {}
+[6.817250] (-) TimerEvent: {}
+[6.846479] (juno_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/juno/ros2_ws/build/juno_controller/build', '--no-deps', 'install_data'], 'cwd': '/juno/ros2_ws/build/juno_controller', 'env': {'PYTHONIOENCODING': 'utf-8', 'HOSTNAME': 'nano1', 'ROS_PACKAGE_PATH': '/ros_deep_learning/install/ros_deep_learning/share', 'GIT_ASKPASS': '/root/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/extensions/git/dist/askpass.sh', 'LD_LIBRARY_PATH': '/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib:', 'BROWSER': '/root/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/bin/helpers/browser.sh', 'SHLVL': '3', 'OLDPWD': '/juno', 'HOME': '/root', 'TERM_PROGRAM_VERSION': '1.79.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-1593dd64-c674-45c4-b741-910ec716637d.sock', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/extensions/git/dist/askpass-main.js', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/node', 'REMOTE_CONTAINERS': 'true', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/juno/ros2_ws/install:/ros_deep_learning/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-24501514-e4b8-4330-b732-c5e250e59afb.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'PKG_CONFIG_PATH': '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/root/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/bin/remote-cli:/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-24501514-e4b8-4330-b732-c5e250e59afb.sock","/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]', 'LANG': 'en_US.UTF-8', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'ROS_ROOT': '/opt/ros/humble', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-7478a9497a.sock', 'AMENT_PREFIX_PATH': '/juno/ros2_ws/install/test_controller:/juno/ros2_ws/install/juno_controller:/ros_deep_learning/install/ros_deep_learning:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-24501514-e4b8-4330-b732-c5e250e59afb.sock', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X0', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/juno/ros2_ws/build/juno_controller', 'PYTHONPATH': '/juno/ros2_ws/build/juno_controller/prefix_override:/juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages:/juno/ros2_ws/build/test_controller:/juno/ros2_ws/build/juno_controller:/juno/ros2_ws/install/test_controller/lib/python3.6/site-packages:/juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'}, 'shell': False}
+[6.891724] (test_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/juno/ros2_ws/build/test_controller/build', '--no-deps', 'install_data'], 'cwd': '/juno/ros2_ws/build/test_controller', 'env': {'PYTHONIOENCODING': 'utf-8', 'HOSTNAME': 'nano1', 'ROS_PACKAGE_PATH': '/ros_deep_learning/install/ros_deep_learning/share', 'GIT_ASKPASS': '/root/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/extensions/git/dist/askpass.sh', 'LD_LIBRARY_PATH': '/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib:', 'BROWSER': '/root/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/bin/helpers/browser.sh', 'SHLVL': '3', 'OLDPWD': '/juno', 'HOME': '/root', 'TERM_PROGRAM_VERSION': '1.79.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-1593dd64-c674-45c4-b741-910ec716637d.sock', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/extensions/git/dist/askpass-main.js', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/node', 'REMOTE_CONTAINERS': 'true', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/juno/ros2_ws/install:/ros_deep_learning/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-24501514-e4b8-4330-b732-c5e250e59afb.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'PKG_CONFIG_PATH': '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/root/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/bin/remote-cli:/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-24501514-e4b8-4330-b732-c5e250e59afb.sock","/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]', 'LANG': 'en_US.UTF-8', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'ROS_ROOT': '/opt/ros/humble', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-7478a9497a.sock', 'AMENT_PREFIX_PATH': '/juno/ros2_ws/install/test_controller:/juno/ros2_ws/install/juno_controller:/ros_deep_learning/install/ros_deep_learning:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-24501514-e4b8-4330-b732-c5e250e59afb.sock', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X0', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/juno/ros2_ws/build/test_controller', 'PYTHONPATH': '/juno/ros2_ws/build/test_controller/prefix_override:/juno/ros2_ws/install/test_controller/lib/python3.6/site-packages:/juno/ros2_ws/build/test_controller:/juno/ros2_ws/build/juno_controller:/juno/ros2_ws/install/test_controller/lib/python3.6/site-packages:/juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'}, 'shell': False}
+[6.917524] (-) TimerEvent: {}
+[7.018431] (-) TimerEvent: {}
+[7.119913] (-) TimerEvent: {}
+[7.224585] (-) TimerEvent: {}
+[7.326078] (-) TimerEvent: {}
+[7.427167] (-) TimerEvent: {}
+[7.529733] (-) TimerEvent: {}
+[7.630484] (-) TimerEvent: {}
+[7.731607] (-) TimerEvent: {}
+[7.832357] (-) TimerEvent: {}
+[7.933129] (-) TimerEvent: {}
+[8.033875] (-) TimerEvent: {}
+[8.134641] (-) TimerEvent: {}
+[8.235414] (-) TimerEvent: {}
+[8.336578] (-) TimerEvent: {}
+[8.437395] (-) TimerEvent: {}
+[8.538163] (-) TimerEvent: {}
+[8.628093] (juno_controller) StdoutLine: {'line': b'running develop\n'}
+[8.638330] (-) TimerEvent: {}
+[8.652982] (test_controller) StdoutLine: {'line': b'running develop\n'}
+[8.738502] (-) TimerEvent: {}
+[8.839602] (-) TimerEvent: {}
+[8.940764] (-) TimerEvent: {}
+[9.042186] (-) TimerEvent: {}
+[9.143769] (-) TimerEvent: {}
+[9.244930] (-) TimerEvent: {}
+[9.346066] (-) TimerEvent: {}
+[9.447185] (-) TimerEvent: {}
+[9.548624] (-) TimerEvent: {}
+[9.625673] (juno_controller) StdoutLine: {'line': b'running egg_info\n'}
+[9.628279] (juno_controller) StdoutLine: {'line': b'writing juno_controller.egg-info/PKG-INFO\n'}
+[9.628905] (juno_controller) StdoutLine: {'line': b'writing dependency_links to juno_controller.egg-info/dependency_links.txt\n'}
+[9.629648] (juno_controller) StdoutLine: {'line': b'writing entry points to juno_controller.egg-info/entry_points.txt\n'}
+[9.630451] (juno_controller) StdoutLine: {'line': b'writing requirements to juno_controller.egg-info/requires.txt\n'}
+[9.631054] (juno_controller) StdoutLine: {'line': b'writing top-level names to juno_controller.egg-info/top_level.txt\n'}
+[9.637119] (juno_controller) StdoutLine: {'line': b"reading manifest file 'juno_controller.egg-info/SOURCES.txt'\n"}
+[9.642589] (test_controller) StdoutLine: {'line': b'running egg_info\n'}
+[9.643655] (juno_controller) StdoutLine: {'line': b"writing manifest file 'juno_controller.egg-info/SOURCES.txt'\n"}
+[9.644492] (test_controller) StdoutLine: {'line': b'writing test_controller.egg-info/PKG-INFO\n'}
+[9.645510] (test_controller) StdoutLine: {'line': b'writing dependency_links to test_controller.egg-info/dependency_links.txt\n'}
+[9.646331] (test_controller) StdoutLine: {'line': b'writing entry points to test_controller.egg-info/entry_points.txt\n'}
+[9.646914] (test_controller) StdoutLine: {'line': b'writing requirements to test_controller.egg-info/requires.txt\n'}
+[9.647463] (test_controller) StdoutLine: {'line': b'writing top-level names to test_controller.egg-info/top_level.txt\n'}
+[9.648740] (-) TimerEvent: {}
+[9.656264] (test_controller) StdoutLine: {'line': b"reading manifest file 'test_controller.egg-info/SOURCES.txt'\n"}
+[9.660349] (test_controller) StdoutLine: {'line': b"writing manifest file 'test_controller.egg-info/SOURCES.txt'\n"}
+[9.748949] (-) TimerEvent: {}
+[9.852290] (-) TimerEvent: {}
+[9.926837] (juno_controller) StdoutLine: {'line': b'running build_ext\n'}
+[9.930704] (juno_controller) StdoutLine: {'line': b'Creating /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno-controller.egg-link (link to .)\n'}
+[9.937078] (juno_controller) StdoutLine: {'line': b'Installing camera_node script to /juno/ros2_ws/install/juno_controller/lib/juno_controller\n'}
+[9.939288] (juno_controller) StdoutLine: {'line': b'Installing drivetrain_node script to /juno/ros2_ws/install/juno_controller/lib/juno_controller\n'}
+[9.943650] (juno_controller) StdoutLine: {'line': b'\n'}
+[9.946160] (juno_controller) StdoutLine: {'line': b'Installed /juno/ros2_ws/build/juno_controller\n'}
+[9.949581] (juno_controller) StdoutLine: {'line': b'running install_data\n'}
+[9.951830] (test_controller) StdoutLine: {'line': b'running build_ext\n'}
+[9.954082] (-) TimerEvent: {}
+[9.955070] (test_controller) StdoutLine: {'line': b'Creating /juno/ros2_ws/install/test_controller/lib/python3.6/site-packages/test-controller.egg-link (link to .)\n'}
+[9.959718] (test_controller) StdoutLine: {'line': b'\n'}
+[9.962809] (test_controller) StdoutLine: {'line': b'Installed /juno/ros2_ws/build/test_controller\n'}
+[9.965304] (test_controller) StdoutLine: {'line': b'running install_data\n'}
+[10.054298] (-) TimerEvent: {}
+[10.078749] (juno_controller) CommandEnded: {'returncode': 0}
+[10.154444] (-) TimerEvent: {}
+[10.256725] (-) TimerEvent: {}
+[10.323769] (juno_controller) JobEnded: {'identifier': 'juno_controller', 'rc': 0}
+[10.334201] (test_controller) CommandEnded: {'returncode': 0}
+[10.357648] (-) TimerEvent: {}
+[10.473839] (-) TimerEvent: {}
+[10.568188] (test_controller) JobEnded: {'identifier': 'test_controller', 'rc': 0}
+[10.572488] (-) EventReactorShutdown: {}

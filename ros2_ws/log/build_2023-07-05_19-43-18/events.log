@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.002070] (juno_controller) JobQueued: {'identifier': 'juno_controller', 'dependencies': OrderedDict()}
+[0.003007] (juno_controller) JobStarted: {'identifier': 'juno_controller'}
+[0.103878] (-) TimerEvent: {}
+[0.212267] (-) TimerEvent: {}
+[0.313181] (-) TimerEvent: {}
+[0.414468] (-) TimerEvent: {}
+[0.515551] (-) TimerEvent: {}
+[0.616475] (-) TimerEvent: {}
+[0.717196] (-) TimerEvent: {}
+[0.817933] (-) TimerEvent: {}
+[0.918640] (-) TimerEvent: {}
+[1.019344] (-) TimerEvent: {}
+[1.120066] (-) TimerEvent: {}
+[1.220761] (-) TimerEvent: {}
+[1.321461] (-) TimerEvent: {}
+[1.422165] (-) TimerEvent: {}
+[1.522899] (-) TimerEvent: {}
+[1.623624] (-) TimerEvent: {}
+[1.724396] (-) TimerEvent: {}
+[1.825146] (-) TimerEvent: {}
+[1.930999] (-) TimerEvent: {}
+[2.047069] (-) TimerEvent: {}
+[2.148335] (-) TimerEvent: {}
+[2.249271] (-) TimerEvent: {}
+[2.350288] (-) TimerEvent: {}
+[2.450996] (-) TimerEvent: {}
+[2.551738] (-) TimerEvent: {}
+[2.652443] (-) TimerEvent: {}
+[2.753147] (-) TimerEvent: {}
+[2.853848] (-) TimerEvent: {}
+[2.954542] (-) TimerEvent: {}
+[3.055233] (-) TimerEvent: {}
+[3.155973] (-) TimerEvent: {}
+[3.256667] (-) TimerEvent: {}
+[3.357379] (-) TimerEvent: {}
+[3.458096] (-) TimerEvent: {}
+[3.558798] (-) TimerEvent: {}
+[3.659497] (-) TimerEvent: {}
+[3.760248] (-) TimerEvent: {}
+[3.860956] (-) TimerEvent: {}
+[3.961675] (-) TimerEvent: {}
+[4.062428] (-) TimerEvent: {}
+[4.163228] (-) TimerEvent: {}
+[4.264027] (-) TimerEvent: {}
+[4.364847] (-) TimerEvent: {}
+[4.373704] (juno_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/juno/ros2_ws/build/juno_controller/build', '--no-deps', 'install_data'], 'cwd': '/juno/ros2_ws/build/juno_controller', 'env': {'PYTHONIOENCODING': 'utf-8', 'HOSTNAME': 'nano1', 'ROS_PACKAGE_PATH': '/ros_deep_learning/install/ros_deep_learning/share', 'LD_LIBRARY_PATH': '/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda-10.2/targets/aarch64-linux/lib:', 'SHLVL': '3', 'OLDPWD': '/juno', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/ros_deep_learning/install:/opt/ros/humble/install:/juno/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'PKG_CONFIG_PATH': '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'en_US.UTF-8', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'AMENT_PREFIX_PATH': '/ros_deep_learning/install/ros_deep_learning:/juno/ros2_ws/install/test_controller:/juno/ros2_ws/install/juno_controller:/opt/ros/humble/install', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PWD': '/juno/ros2_ws/build/juno_controller', 'PYTHONPATH': '/juno/ros2_ws/build/juno_controller/prefix_override:/juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages:/juno/ros2_ws/build/test_controller:/juno/ros2_ws/install/test_controller/lib/python3.6/site-packages:/juno/ros2_ws/build/juno_controller:/juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'}, 'shell': False}
+[4.465093] (-) TimerEvent: {}
+[4.566043] (-) TimerEvent: {}
+[4.666818] (-) TimerEvent: {}
+[4.767551] (-) TimerEvent: {}
+[4.868476] (-) TimerEvent: {}
+[4.969171] (-) TimerEvent: {}
+[5.069860] (-) TimerEvent: {}
+[5.170550] (-) TimerEvent: {}
+[5.271238] (-) TimerEvent: {}
+[5.371972] (-) TimerEvent: {}
+[5.472662] (-) TimerEvent: {}
+[5.573352] (-) TimerEvent: {}
+[5.674192] (-) TimerEvent: {}
+[5.774913] (-) TimerEvent: {}
+[5.875614] (-) TimerEvent: {}
+[5.976369] (-) TimerEvent: {}
+[6.062099] (juno_controller) StdoutLine: {'line': b'running develop\n'}
+[6.076503] (-) TimerEvent: {}
+[6.177172] (-) TimerEvent: {}
+[6.277862] (-) TimerEvent: {}
+[6.378547] (-) TimerEvent: {}
+[6.479235] (-) TimerEvent: {}
+[6.579940] (-) TimerEvent: {}
+[6.680625] (-) TimerEvent: {}
+[6.781316] (-) TimerEvent: {}
+[6.882007] (-) TimerEvent: {}
+[6.982710] (-) TimerEvent: {}
+[7.012546] (juno_controller) StdoutLine: {'line': b'running egg_info\n'}
+[7.013418] (juno_controller) StdoutLine: {'line': b'writing juno_controller.egg-info/PKG-INFO\n'}
+[7.015074] (juno_controller) StdoutLine: {'line': b'writing dependency_links to juno_controller.egg-info/dependency_links.txt\n'}
+[7.015946] (juno_controller) StdoutLine: {'line': b'writing entry points to juno_controller.egg-info/entry_points.txt\n'}
+[7.016498] (juno_controller) StdoutLine: {'line': b'writing requirements to juno_controller.egg-info/requires.txt\n'}
+[7.017103] (juno_controller) StdoutLine: {'line': b'writing top-level names to juno_controller.egg-info/top_level.txt\n'}
+[7.024291] (juno_controller) StdoutLine: {'line': b"reading manifest file 'juno_controller.egg-info/SOURCES.txt'\n"}
+[7.030643] (juno_controller) StdoutLine: {'line': b"writing manifest file 'juno_controller.egg-info/SOURCES.txt'\n"}
+[7.082864] (-) TimerEvent: {}
+[7.183564] (-) TimerEvent: {}
+[7.279755] (juno_controller) StdoutLine: {'line': b'running build_ext\n'}
+[7.280697] (juno_controller) StdoutLine: {'line': b'Creating /juno/ros2_ws/install/juno_controller/lib/python3.6/site-packages/juno-controller.egg-link (link to .)\n'}
+[7.283710] (-) TimerEvent: {}
+[7.284602] (juno_controller) StdoutLine: {'line': b'Installing drivetrain script to /juno/ros2_ws/install/juno_controller/lib/juno_controller\n'}
+[7.287851] (juno_controller) StdoutLine: {'line': b'Installing vision script to /juno/ros2_ws/install/juno_controller/lib/juno_controller\n'}
+[7.288618] (juno_controller) StdoutLine: {'line': b'\n'}
+[7.289242] (juno_controller) StdoutLine: {'line': b'Installed /juno/ros2_ws/build/juno_controller\n'}
+[7.289821] (juno_controller) StdoutLine: {'line': b'running install_data\n'}
+[7.383888] (-) TimerEvent: {}
+[7.423980] (juno_controller) CommandEnded: {'returncode': 0}
+[7.484032] (-) TimerEvent: {}
+[7.587281] (-) TimerEvent: {}
+[7.658796] (juno_controller) JobEnded: {'identifier': 'juno_controller', 'rc': 0}
+[7.662276] (-) EventReactorShutdown: {}

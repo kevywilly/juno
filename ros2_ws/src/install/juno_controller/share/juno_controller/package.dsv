@@ -1,0 +1,3 @@
+source;share/juno_controller/hook/pythonpath.ps1
+source;share/juno_controller/hook/pythonpath.dsv
+source;share/juno_controller/hook/pythonpath.sh
