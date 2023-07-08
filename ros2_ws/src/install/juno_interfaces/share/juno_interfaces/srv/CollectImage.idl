@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from juno_interfaces/srv/CollectImage.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module juno_interfaces {
+  module srv {
+    struct CollectImage_Request {
+      string category;
+
+      sensor_msgs::msg::Image image;
+    };
+    struct CollectImage_Response {
+      int64 count;
+    };
+  };
+};

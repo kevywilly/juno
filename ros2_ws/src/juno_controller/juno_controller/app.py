@@ -9,18 +9,54 @@ from flask_cors import CORS
 from flask import Flask, Response, jsonify
 import cv2 as cv
 from cv_bridge import CvBridge, CvBridgeError
+from juno_interfaces.srv import CollectImage, Categories
 
 class JunoApiNode(Node):
     def __init__(self):
-        super().__init__('juno_api_node')
+        super().__init__('juno_api')
+        self.image: Image = None
+        self.bridge = CvBridge()
+
         # publishers
         self.drivetrain_publisher = self.create_publisher(Twist, '/drivetrain/cmd', 10)
 
         # subscriptions
         self.create_subscription(Image, "/video_source/raw", self.image_callback, 10)
        
-        self.image: Image = None
-        self.bridge = CvBridge()
+        # service clients
+        self.collect_client = self.create_client(
+            CollectImage, 
+            "collect_image"
+        )
+        while not self.collect_client.wait_for_service(timeout_sec=1.0):
+            self.get_logger().info('collect image service not available, waiting again...')
+
+        self.get_categories_client = self.create_client(
+            Categories, 
+            "categories"
+        )
+        while not self.get_categories_client.wait_for_service(timeout_sec=1.0):
+            self.get_logger().info('categories service not available, waiting again...')
+
+    def send_collect_image_request(self, category):
+        try:
+            self.get_logger().info(f"received image request {category}")
+            req = CollectImage.Request()
+            req.image = self.image
+            req.category = category
+            result = self.collect_client.call(req)
+            #rclpy.spin_until_future_complete(self, self.future)
+            #result =  self.future.result()
+            self.get_logger().info(f"received response {result}")
+            return result
+        
+        except Exception as ex:
+            self.get_logger().error(str(ex))
+
+    def get_categories(self):
+        req = Categories.Request()
+        result = self.get_categories_client.call(req)
+        return [{"name": cat.name, "count": cat.count} for cat in result.categories]
 
 
     def drive(self, direction: str, speed: float):
@@ -56,9 +92,10 @@ class JunoApiNode(Node):
             return bytes("")
             
 
-def ros2_thread(node):
+def ros2_thread(node: JunoApiNode):
     print('entering ros2 thread')
     rclpy.spin(node)
+    node.destroy_node()
     print('leaving ros2 thread')
 
 
@@ -72,6 +109,7 @@ def sigint_handler(signal, frame):
     rclpy.shutdown() and then call the previously-installed
     SIGINT handler for Flask
     """
+    
     rclpy.shutdown()
     if prev_sigint_handler is not None:
         prev_sigint_handler(signal)
@@ -87,7 +125,7 @@ cors = CORS(app, resource={
         "origins": "*"
     }
 })
-threading.Thread(target=ros2_thread, args=[ros2_node]).start()
+
 prev_sigint_handler = signal.signal(signal.SIGINT, sigint_handler)
 
 
@@ -116,3 +154,22 @@ def drive_cmd(direction: str, speed: str):
     ros2_node.drive(direction, float(speed))
     return {'drive': direction, 'speed': float(speed)}
 
+@app.route('/api/categories/<category>/collect')
+def collect(category: str):
+    try:
+        resp = ros2_node.send_collect_image_request(category)
+        return {'count': 1}
+    except Exception as ex:
+        return {'count': -1, 'error': str(ex)}
+
+@app.get('/api/categories/counts')
+def category_counts():
+    results = ros2_node.get_categories()
+    return jsonify(results)
+
+def main(args=None):
+    threading.Thread(target=ros2_thread, args=[ros2_node]).start()
+    app.run(host="0.0.0.0", debug=True, use_reloader = False)
+
+if __name__=="__main__":
+    main()

@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/juno_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/juno_interfaces/msg/detail/category__type_support_c.cpp.o"
+  "CMakeFiles/juno_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/juno_interfaces/msg/detail/category__type_support_c.cpp.o.d"
+  "CMakeFiles/juno_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/juno_interfaces/srv/detail/categories__type_support_c.cpp.o"
+  "CMakeFiles/juno_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/juno_interfaces/srv/detail/categories__type_support_c.cpp.o.d"
+  "CMakeFiles/juno_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/juno_interfaces/srv/detail/collect_image__type_support_c.cpp.o"
+  "CMakeFiles/juno_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/juno_interfaces/srv/detail/collect_image__type_support_c.cpp.o.d"
+  "libjuno_interfaces__rosidl_typesupport_fastrtps_c.pdb"
+  "libjuno_interfaces__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/juno_interfaces/msg/detail/category__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/juno_interfaces/msg/detail/category__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/juno_interfaces/srv/detail/categories__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/juno_interfaces/srv/detail/categories__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/juno_interfaces/srv/detail/collect_image__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/juno_interfaces/srv/detail/collect_image__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/juno_interfaces__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

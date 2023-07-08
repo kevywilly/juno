@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             "drivetrain = juno_controller.drivetrain_node:main",
-            "vision = juno_controller.vision_node:main"
+            "api = juno_controller.app:main",
+            "collect_image = juno_controller.collector_service:main"
         ],
     },
 )

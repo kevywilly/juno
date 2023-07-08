@@ -1,0 +1,11 @@
+setup.py
+juno_interfaces/__init__.py
+juno_interfaces.egg-info/PKG-INFO
+juno_interfaces.egg-info/SOURCES.txt
+juno_interfaces.egg-info/dependency_links.txt
+juno_interfaces.egg-info/top_level.txt
+juno_interfaces/msg/__init__.py
+juno_interfaces/msg/_category.py
+juno_interfaces/srv/__init__.py
+juno_interfaces/srv/_categories.py
+juno_interfaces/srv/_collect_image.py

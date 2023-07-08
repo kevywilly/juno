@@ -1,0 +1,10 @@
+msg/Category.idl
+msg/Category.msg
+srv/Categories.idl
+srv/Categories.srv
+srv/Categories_Request.msg
+srv/Categories_Response.msg
+srv/CollectImage.idl
+srv/CollectImage.srv
+srv/CollectImage_Request.msg
+srv/CollectImage_Response.msg

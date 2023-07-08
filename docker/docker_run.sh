@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 CONTAINER_IMAGE=""
-
+CONTAINER_NAME=""
 ENVIRONMENT=""
 USER_VOLUME=""
 USER_COMMAND=""
@@ -37,6 +37,7 @@ show_help() {
     echo "                          as all further arguments will form the command."
     echo "                          If no run command is specified, an interactive"
     echo "                          terminal into the container will be provided."
+    echo "" -r, --name CONTAINER_NAME
     echo " "
 }
 
@@ -102,6 +103,17 @@ while :; do
             else
                 die 'ERROR: "--run" requires a non-empty option argument.'
             fi
+            ;;
+        -n|--name)
+            if [ "$2" ]; then
+                CONTAINER_NAME="$CONTAINER_NAME --name $2 "
+                shift
+            else
+                die 'ERROR: "--name" requires a non-empty option argument.'
+            fi
+            ;;
+        --name=?*)
+            CONTAINER_NAME="$CONTAINER_NAME --name ${1#*=} "
             ;;
         --)              # End of all options.
             shift
@@ -169,6 +181,7 @@ print_var()
 }
 
 print_var "CONTAINER_IMAGE"
+print_var "CONTAINER_NAME"
 print_var "ENVIRONMENT"
 print_var "USER_VOLUME"
 print_var "USER_COMMAND"
@@ -180,4 +193,4 @@ print_var "VOLUMES"
 # run the container
 sudo docker run --runtime nvidia -it --rm --network host \
 	$ENVIRONMENT $DISPLAY_DEVICE $V4L2_DEVICES $I2C_DEVICES \
-	$VOLUMES $USER_VOLUME $CONTAINER_IMAGE $USER_COMMAND
+	$VOLUMES $USER_VOLUME $CONTAINER_NAME $CONTAINER_IMAGE $USER_COMMAND

@@ -1,14 +1,7 @@
-from pydantic import BaseSettings
-from typing import List
+from pydantic import BaseSettings, BaseModel
+from typing import List, Optional, Any
 
-from config import TrainingConfig
-
-
-from config import (
-    Obstacle3dV2Config, 
-    MecanumConfig,
-    Navigate5d
-)
+from juno_controller import (TrainingConfig, Obstacle3dV2Config)
 
 class CalibrationSettings(BaseSettings):
     base_folder: str = "/home/nano/nano-ml/data/calibration"

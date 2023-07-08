@@ -1,0 +1,4 @@
+string category
+sensor_msgs/Image image
+---
+int64 count

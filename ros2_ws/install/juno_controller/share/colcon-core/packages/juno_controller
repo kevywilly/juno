@@ -1,1 +1,1 @@
-geometry_msgs:rclpy:sensor_msgs
+geometry_msgs:juno_interfaces:rclpy:rosidl_default_runtime:sensor_msgs:std_srvs

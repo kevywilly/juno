@@ -1,0 +1,3 @@
+/juno/ros2_ws/build/juno_interfaces/rosidl_adapter/juno_interfaces:msg/Category.idl
+/juno/ros2_ws/build/juno_interfaces/rosidl_adapter/juno_interfaces:srv/Categories.idl
+/juno/ros2_ws/build/juno_interfaces/rosidl_adapter/juno_interfaces:srv/CollectImage.idl

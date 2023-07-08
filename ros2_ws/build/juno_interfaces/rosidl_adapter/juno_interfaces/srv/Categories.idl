@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from juno_interfaces/srv/Categories.srv
+// generated code does not contain a copyright notice
+
+#include "juno_interfaces/msg/Category.idl"
+
+module juno_interfaces {
+  module srv {
+    struct Categories_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct Categories_Response {
+      sequence<juno_interfaces::msg::Category> categories;
+    };
+  };
+};

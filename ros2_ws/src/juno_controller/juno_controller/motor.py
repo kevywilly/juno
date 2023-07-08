@@ -1,5 +1,4 @@
 import atexit
-import traitlets
 from Adafruit_MotorHAT import Adafruit_MotorHAT
 
 class Motor:

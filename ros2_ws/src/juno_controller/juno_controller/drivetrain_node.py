@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from Adafruit_MotorHAT import Adafruit_MotorHAT
-from juno_controller import Motor
+from juno_controller.motor import Motor
 from geometry_msgs.msg import Twist
 
 class DrivetrainNode(Node):
