@@ -66,13 +66,9 @@ include CMakeFiles/juno_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/juno_interfaces.dir/progress.make
 
-CMakeFiles/juno_interfaces: /juno/ros2_ws/src/juno_interfaces/msg/Category.msg
-CMakeFiles/juno_interfaces: /juno/ros2_ws/src/juno_interfaces/srv/Categories.srv
-CMakeFiles/juno_interfaces: rosidl_cmake/srv/Categories_Request.msg
-CMakeFiles/juno_interfaces: rosidl_cmake/srv/Categories_Response.msg
-CMakeFiles/juno_interfaces: /juno/ros2_ws/src/juno_interfaces/srv/CollectImage.srv
-CMakeFiles/juno_interfaces: rosidl_cmake/srv/CollectImage_Request.msg
-CMakeFiles/juno_interfaces: rosidl_cmake/srv/CollectImage_Response.msg
+CMakeFiles/juno_interfaces: /juno/ros2_ws/src/juno_interfaces/srv/Toggle.srv
+CMakeFiles/juno_interfaces: rosidl_cmake/srv/Toggle_Request.msg
+CMakeFiles/juno_interfaces: rosidl_cmake/srv/Toggle_Response.msg
 CMakeFiles/juno_interfaces: /opt/ros/humble/install/share/sensor_msgs/msg/BatteryState.idl
 CMakeFiles/juno_interfaces: /opt/ros/humble/install/share/sensor_msgs/msg/CameraInfo.idl
 CMakeFiles/juno_interfaces: /opt/ros/humble/install/share/sensor_msgs/msg/ChannelFloat32.idl

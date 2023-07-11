@@ -358,35 +358,17 @@ include("/juno/ros2_ws/build/juno_interfaces/ament_cmake_symlink_install_targets
 # install("TARGETS" "juno_interfaces__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.6/site-packages/juno_interfaces")
 include("/juno/ros2_ws/build/juno_interfaces/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/juno/ros2_ws/build/juno_interfaces/rosidl_adapter/juno_interfaces/msg/Category.idl" "DESTINATION" "share/juno_interfaces/msg")
-ament_cmake_symlink_install_files("/juno/ros2_ws/src/juno_interfaces" FILES "/juno/ros2_ws/build/juno_interfaces/rosidl_adapter/juno_interfaces/msg/Category.idl" "DESTINATION" "share/juno_interfaces/msg")
+# install(FILES "/juno/ros2_ws/build/juno_interfaces/rosidl_adapter/juno_interfaces/srv/Toggle.idl" "DESTINATION" "share/juno_interfaces/srv")
+ament_cmake_symlink_install_files("/juno/ros2_ws/src/juno_interfaces" FILES "/juno/ros2_ws/build/juno_interfaces/rosidl_adapter/juno_interfaces/srv/Toggle.idl" "DESTINATION" "share/juno_interfaces/srv")
 
-# install(FILES "/juno/ros2_ws/build/juno_interfaces/rosidl_adapter/juno_interfaces/srv/Categories.idl" "DESTINATION" "share/juno_interfaces/srv")
-ament_cmake_symlink_install_files("/juno/ros2_ws/src/juno_interfaces" FILES "/juno/ros2_ws/build/juno_interfaces/rosidl_adapter/juno_interfaces/srv/Categories.idl" "DESTINATION" "share/juno_interfaces/srv")
+# install(FILES "/juno/ros2_ws/src/juno_interfaces/srv/Toggle.srv" "DESTINATION" "share/juno_interfaces/srv")
+ament_cmake_symlink_install_files("/juno/ros2_ws/src/juno_interfaces" FILES "/juno/ros2_ws/src/juno_interfaces/srv/Toggle.srv" "DESTINATION" "share/juno_interfaces/srv")
 
-# install(FILES "/juno/ros2_ws/build/juno_interfaces/rosidl_adapter/juno_interfaces/srv/CollectImage.idl" "DESTINATION" "share/juno_interfaces/srv")
-ament_cmake_symlink_install_files("/juno/ros2_ws/src/juno_interfaces" FILES "/juno/ros2_ws/build/juno_interfaces/rosidl_adapter/juno_interfaces/srv/CollectImage.idl" "DESTINATION" "share/juno_interfaces/srv")
+# install(FILES "/juno/ros2_ws/build/juno_interfaces/rosidl_cmake/srv/Toggle_Request.msg" "DESTINATION" "share/juno_interfaces/srv")
+ament_cmake_symlink_install_files("/juno/ros2_ws/src/juno_interfaces" FILES "/juno/ros2_ws/build/juno_interfaces/rosidl_cmake/srv/Toggle_Request.msg" "DESTINATION" "share/juno_interfaces/srv")
 
-# install(FILES "/juno/ros2_ws/src/juno_interfaces/msg/Category.msg" "DESTINATION" "share/juno_interfaces/msg")
-ament_cmake_symlink_install_files("/juno/ros2_ws/src/juno_interfaces" FILES "/juno/ros2_ws/src/juno_interfaces/msg/Category.msg" "DESTINATION" "share/juno_interfaces/msg")
-
-# install(FILES "/juno/ros2_ws/src/juno_interfaces/srv/Categories.srv" "DESTINATION" "share/juno_interfaces/srv")
-ament_cmake_symlink_install_files("/juno/ros2_ws/src/juno_interfaces" FILES "/juno/ros2_ws/src/juno_interfaces/srv/Categories.srv" "DESTINATION" "share/juno_interfaces/srv")
-
-# install(FILES "/juno/ros2_ws/build/juno_interfaces/rosidl_cmake/srv/Categories_Request.msg" "DESTINATION" "share/juno_interfaces/srv")
-ament_cmake_symlink_install_files("/juno/ros2_ws/src/juno_interfaces" FILES "/juno/ros2_ws/build/juno_interfaces/rosidl_cmake/srv/Categories_Request.msg" "DESTINATION" "share/juno_interfaces/srv")
-
-# install(FILES "/juno/ros2_ws/build/juno_interfaces/rosidl_cmake/srv/Categories_Response.msg" "DESTINATION" "share/juno_interfaces/srv")
-ament_cmake_symlink_install_files("/juno/ros2_ws/src/juno_interfaces" FILES "/juno/ros2_ws/build/juno_interfaces/rosidl_cmake/srv/Categories_Response.msg" "DESTINATION" "share/juno_interfaces/srv")
-
-# install(FILES "/juno/ros2_ws/src/juno_interfaces/srv/CollectImage.srv" "DESTINATION" "share/juno_interfaces/srv")
-ament_cmake_symlink_install_files("/juno/ros2_ws/src/juno_interfaces" FILES "/juno/ros2_ws/src/juno_interfaces/srv/CollectImage.srv" "DESTINATION" "share/juno_interfaces/srv")
-
-# install(FILES "/juno/ros2_ws/build/juno_interfaces/rosidl_cmake/srv/CollectImage_Request.msg" "DESTINATION" "share/juno_interfaces/srv")
-ament_cmake_symlink_install_files("/juno/ros2_ws/src/juno_interfaces" FILES "/juno/ros2_ws/build/juno_interfaces/rosidl_cmake/srv/CollectImage_Request.msg" "DESTINATION" "share/juno_interfaces/srv")
-
-# install(FILES "/juno/ros2_ws/build/juno_interfaces/rosidl_cmake/srv/CollectImage_Response.msg" "DESTINATION" "share/juno_interfaces/srv")
-ament_cmake_symlink_install_files("/juno/ros2_ws/src/juno_interfaces" FILES "/juno/ros2_ws/build/juno_interfaces/rosidl_cmake/srv/CollectImage_Response.msg" "DESTINATION" "share/juno_interfaces/srv")
+# install(FILES "/juno/ros2_ws/build/juno_interfaces/rosidl_cmake/srv/Toggle_Response.msg" "DESTINATION" "share/juno_interfaces/srv")
+ament_cmake_symlink_install_files("/juno/ros2_ws/src/juno_interfaces" FILES "/juno/ros2_ws/build/juno_interfaces/rosidl_cmake/srv/Toggle_Response.msg" "DESTINATION" "share/juno_interfaces/srv")
 
 # install(FILES "/juno/ros2_ws/build/juno_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/juno_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/juno/ros2_ws/src/juno_interfaces" FILES "/juno/ros2_ws/build/juno_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/juno_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

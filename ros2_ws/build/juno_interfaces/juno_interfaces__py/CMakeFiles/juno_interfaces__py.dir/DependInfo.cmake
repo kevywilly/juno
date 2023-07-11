@@ -14,14 +14,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_c.c" "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_introspection_c.c" "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/msg/__init__.py" "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/msg/_category.py" "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/msg/_category_s.c" "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/srv/__init__.py" "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/srv/_categories.py" "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/srv/_categories_s.c" "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/srv/_collect_image.py" "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/srv/_collect_image_s.c" "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/srv/_toggle.py" "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/srv/_toggle_s.c" "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

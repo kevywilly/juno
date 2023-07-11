@@ -3,9 +3,7 @@
   "output_dir": "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_cpp/juno_interfaces",
   "template_dir": "/opt/ros/humble/install/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/juno/ros2_ws/build/juno_interfaces/rosidl_adapter/juno_interfaces:msg/Category.idl",
-    "/juno/ros2_ws/build/juno_interfaces/rosidl_adapter/juno_interfaces:srv/Categories.idl",
-    "/juno/ros2_ws/build/juno_interfaces/rosidl_adapter/juno_interfaces:srv/CollectImage.idl"
+    "/juno/ros2_ws/build/juno_interfaces/rosidl_adapter/juno_interfaces:srv/Toggle.idl"
   ],
   "ros_interface_dependencies": [
     "sensor_msgs:/opt/ros/humble/install/share/sensor_msgs/msg/BatteryState.idl",
@@ -114,9 +112,7 @@
     "/opt/ros/humble/install/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "/opt/ros/humble/install/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/humble/install/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "/juno/ros2_ws/build/juno_interfaces/rosidl_adapter/juno_interfaces/msg/Category.idl",
-    "/juno/ros2_ws/build/juno_interfaces/rosidl_adapter/juno_interfaces/srv/Categories.idl",
-    "/juno/ros2_ws/build/juno_interfaces/rosidl_adapter/juno_interfaces/srv/CollectImage.idl",
+    "/juno/ros2_ws/build/juno_interfaces/rosidl_adapter/juno_interfaces/srv/Toggle.idl",
     "/opt/ros/humble/install/share/sensor_msgs/msg/BatteryState.idl",
     "/opt/ros/humble/install/share/sensor_msgs/msg/CameraInfo.idl",
     "/opt/ros/humble/install/share/sensor_msgs/msg/ChannelFloat32.idl",

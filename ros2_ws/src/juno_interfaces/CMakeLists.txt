@@ -15,9 +15,7 @@ find_package(rosidl_default_generators REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Category.msg"
-  "srv/Categories.srv"
-  "srv/CollectImage.srv"
+  "srv/Toggle.srv"
   DEPENDENCIES sensor_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
 )
 

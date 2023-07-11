@@ -15,14 +15,14 @@ setup(
     zip_safe=True,
     maintainer='root',
     maintainer_email='kevywilly@gmail.com',
-    description='TODO: Package description',
+    description='Juno Robot Controller',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             "drivetrain = juno_controller.drivetrain_node:main",
             "api = juno_controller.app:main",
-            "collect_image = juno_controller.collector_service:main"
+            "autodrive = juno_controller.autodrive_node:main"
         ],
     },
 )

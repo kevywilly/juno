@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from juno_interfaces/srv/Toggle.srv
+// generated code does not contain a copyright notice
+
+
+module juno_interfaces {
+  module srv {
+    struct Toggle_Request {
+      boolean on;
+    };
+    struct Toggle_Response {
+      boolean status;
+    };
+  };
+};

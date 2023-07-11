@@ -9,3 +9,4 @@ juno_interfaces/msg/_category.py
 juno_interfaces/srv/__init__.py
 juno_interfaces/srv/_categories.py
 juno_interfaces/srv/_collect_image.py
+juno_interfaces/srv/_toggle.py

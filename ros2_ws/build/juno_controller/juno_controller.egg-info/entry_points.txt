@@ -1,5 +1,5 @@
 [console_scripts]
 api = juno_controller.app:main
-collect_image = juno_controller.collector_service:main
+autodrive = juno_controller.autodrive_node:main
 drivetrain = juno_controller.drivetrain_node:main
 

@@ -10,7 +10,6 @@
   <depend>rclpy</depend>
   <depend>sensor_msgs</depend>
   <depend>geometry_msgs</depend>
-  <depend>std_srvs</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
@@ -21,6 +20,7 @@
 
   <exec_depend>rosidl_default_runtime</exec_depend>
   <exec_depend>juno_interfaces</exec_depend>
+  <exec_depend>ros_deep_learning</exec_depend>
 
   <member_of_group>rosidl_interface_packages</member_of_group>
 

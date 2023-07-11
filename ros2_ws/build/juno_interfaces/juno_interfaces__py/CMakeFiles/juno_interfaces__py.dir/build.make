@@ -69,14 +69,9 @@ include /juno/ros2_ws/build/juno_interfaces/juno_interfaces__py/CMakeFiles/juno_
 /juno/ros2_ws/build/juno_interfaces/juno_interfaces__py/CMakeFiles/juno_interfaces__py: rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 /juno/ros2_ws/build/juno_interfaces/juno_interfaces__py/CMakeFiles/juno_interfaces__py: rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 /juno/ros2_ws/build/juno_interfaces/juno_interfaces__py/CMakeFiles/juno_interfaces__py: rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_c.c
-/juno/ros2_ws/build/juno_interfaces/juno_interfaces__py/CMakeFiles/juno_interfaces__py: rosidl_generator_py/juno_interfaces/msg/_category.py
-/juno/ros2_ws/build/juno_interfaces/juno_interfaces__py/CMakeFiles/juno_interfaces__py: rosidl_generator_py/juno_interfaces/srv/_categories.py
-/juno/ros2_ws/build/juno_interfaces/juno_interfaces__py/CMakeFiles/juno_interfaces__py: rosidl_generator_py/juno_interfaces/srv/_collect_image.py
-/juno/ros2_ws/build/juno_interfaces/juno_interfaces__py/CMakeFiles/juno_interfaces__py: rosidl_generator_py/juno_interfaces/msg/__init__.py
+/juno/ros2_ws/build/juno_interfaces/juno_interfaces__py/CMakeFiles/juno_interfaces__py: rosidl_generator_py/juno_interfaces/srv/_toggle.py
 /juno/ros2_ws/build/juno_interfaces/juno_interfaces__py/CMakeFiles/juno_interfaces__py: rosidl_generator_py/juno_interfaces/srv/__init__.py
-/juno/ros2_ws/build/juno_interfaces/juno_interfaces__py/CMakeFiles/juno_interfaces__py: rosidl_generator_py/juno_interfaces/msg/_category_s.c
-/juno/ros2_ws/build/juno_interfaces/juno_interfaces__py/CMakeFiles/juno_interfaces__py: rosidl_generator_py/juno_interfaces/srv/_categories_s.c
-/juno/ros2_ws/build/juno_interfaces/juno_interfaces__py/CMakeFiles/juno_interfaces__py: rosidl_generator_py/juno_interfaces/srv/_collect_image_s.c
+/juno/ros2_ws/build/juno_interfaces/juno_interfaces__py/CMakeFiles/juno_interfaces__py: rosidl_generator_py/juno_interfaces/srv/_toggle_s.c
 
 rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/install/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/install/lib/python3.6/site-packages/rosidl_generator_py/__init__.py
@@ -91,9 +86,7 @@ rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fas
 rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/install/share/rosidl_generator_py/resource/_msg.py.em
 rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/install/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/install/share/rosidl_generator_py/resource/_srv.py.em
-rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/juno_interfaces/msg/Category.idl
-rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/juno_interfaces/srv/Categories.idl
-rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/juno_interfaces/srv/CollectImage.idl
+rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/juno_interfaces/srv/Toggle.idl
 rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/install/share/sensor_msgs/msg/BatteryState.idl
 rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/install/share/sensor_msgs/msg/CameraInfo.idl
 rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/install/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -192,42 +185,22 @@ rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_int
 rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_c.c: rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_c.c
 
-rosidl_generator_py/juno_interfaces/msg/_category.py: rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/juno_interfaces/msg/_category.py
-
-rosidl_generator_py/juno_interfaces/srv/_categories.py: rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/juno_interfaces/srv/_categories.py
-
-rosidl_generator_py/juno_interfaces/srv/_collect_image.py: rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/juno_interfaces/srv/_collect_image.py
-
-rosidl_generator_py/juno_interfaces/msg/__init__.py: rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/juno_interfaces/msg/__init__.py
+rosidl_generator_py/juno_interfaces/srv/_toggle.py: rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/juno_interfaces/srv/_toggle.py
 
 rosidl_generator_py/juno_interfaces/srv/__init__.py: rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/juno_interfaces/srv/__init__.py
 
-rosidl_generator_py/juno_interfaces/msg/_category_s.c: rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/juno_interfaces/msg/_category_s.c
-
-rosidl_generator_py/juno_interfaces/srv/_categories_s.c: rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/juno_interfaces/srv/_categories_s.c
-
-rosidl_generator_py/juno_interfaces/srv/_collect_image_s.c: rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/juno_interfaces/srv/_collect_image_s.c
+rosidl_generator_py/juno_interfaces/srv/_toggle_s.c: rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/juno_interfaces/srv/_toggle_s.c
 
 juno_interfaces__py: /juno/ros2_ws/build/juno_interfaces/juno_interfaces__py/CMakeFiles/juno_interfaces__py
 juno_interfaces__py: rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_c.c
 juno_interfaces__py: rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 juno_interfaces__py: rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_introspection_c.c
-juno_interfaces__py: rosidl_generator_py/juno_interfaces/msg/__init__.py
-juno_interfaces__py: rosidl_generator_py/juno_interfaces/msg/_category.py
-juno_interfaces__py: rosidl_generator_py/juno_interfaces/msg/_category_s.c
 juno_interfaces__py: rosidl_generator_py/juno_interfaces/srv/__init__.py
-juno_interfaces__py: rosidl_generator_py/juno_interfaces/srv/_categories.py
-juno_interfaces__py: rosidl_generator_py/juno_interfaces/srv/_categories_s.c
-juno_interfaces__py: rosidl_generator_py/juno_interfaces/srv/_collect_image.py
-juno_interfaces__py: rosidl_generator_py/juno_interfaces/srv/_collect_image_s.c
+juno_interfaces__py: rosidl_generator_py/juno_interfaces/srv/_toggle.py
+juno_interfaces__py: rosidl_generator_py/juno_interfaces/srv/_toggle_s.c
 juno_interfaces__py: /juno/ros2_ws/build/juno_interfaces/juno_interfaces__py/CMakeFiles/juno_interfaces__py.dir/build.make
 .PHONY : juno_interfaces__py
 

@@ -181,38 +181,17 @@ CMakeFiles/juno_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_gene
   /opt/ros/humble/install/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/humble/install/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
   /opt/ros/humble/install/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
-  rosidl_generator_c/juno_interfaces/msg/detail/category__type_support.h \
+  rosidl_generator_c/juno_interfaces/srv/detail/toggle__type_support.h \
   rosidl_generator_c/juno_interfaces/msg/rosidl_generator_c__visibility_control.h \
-  rosidl_generator_c/juno_interfaces/msg/detail/category__struct.h \
-  /opt/ros/humble/install/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
-  /opt/ros/humble/install/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
-  rosidl_generator_c/juno_interfaces/msg/detail/category__functions.h \
-  rosidl_generator_c/juno_interfaces/srv/detail/categories__type_support.h \
-  rosidl_generator_c/juno_interfaces/srv/detail/categories__struct.h \
-  rosidl_generator_c/juno_interfaces/srv/detail/categories__functions.h \
-  rosidl_generator_c/juno_interfaces/srv/detail/collect_image__type_support.h \
-  rosidl_generator_c/juno_interfaces/srv/detail/collect_image__struct.h \
-  /opt/ros/humble/install/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h \
-  /opt/ros/humble/install/include/std_msgs/std_msgs/msg/detail/header__struct.h \
-  /opt/ros/humble/install/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
-  rosidl_generator_c/juno_interfaces/srv/detail/collect_image__functions.h
+  rosidl_generator_c/juno_interfaces/srv/detail/toggle__struct.h \
+  rosidl_generator_c/juno_interfaces/srv/detail/toggle__functions.h
 
 
-/opt/ros/humble/install/include/std_msgs/std_msgs/msg/detail/header__struct.h:
-
-/opt/ros/humble/install/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h:
-
-rosidl_generator_c/juno_interfaces/srv/detail/categories__functions.h:
-
-rosidl_generator_c/juno_interfaces/srv/detail/categories__type_support.h:
-
-rosidl_generator_c/juno_interfaces/msg/detail/category__functions.h:
-
-/opt/ros/humble/install/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
-
-/opt/ros/humble/install/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
+rosidl_generator_c/juno_interfaces/srv/detail/toggle__functions.h:
 
 rosidl_generator_c/juno_interfaces/msg/rosidl_generator_c__visibility_control.h:
+
+rosidl_generator_c/juno_interfaces/srv/detail/toggle__type_support.h:
 
 /opt/ros/humble/install/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h:
 
@@ -244,8 +223,6 @@ rosidl_generator_c/juno_interfaces/msg/rosidl_generator_c__visibility_control.h:
 
 /usr/include/aarch64-linux-gnu/bits/getopt_core.h:
 
-rosidl_generator_c/juno_interfaces/msg/detail/category__type_support.h:
-
 /usr/include/aarch64-linux-gnu/bits/sysmacros.h:
 
 /usr/include/aarch64-linux-gnu/bits/byteswap-16.h:
@@ -261,8 +238,6 @@ rosidl_generator_c/juno_interfaces/msg/detail/category__type_support.h:
 /usr/include/aarch64-linux-gnu/bits/byteswap.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h:
-
-/opt/ros/humble/install/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
 
 /usr/include/stdc-predef.h:
 
@@ -418,8 +393,6 @@ rosidl_generator_py/juno_interfaces/_juno_interfaces_s.ep.rosidl_typesupport_fas
 
 /usr/lib/gcc/aarch64-linux-gnu/7/include/stdarg.h:
 
-rosidl_generator_c/juno_interfaces/srv/detail/categories__struct.h:
-
 /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/python3.6m/object.h:
@@ -441,8 +414,6 @@ rosidl_generator_c/juno_interfaces/srv/detail/categories__struct.h:
 /usr/include/aarch64-linux-gnu/bits/sys_errlist.h:
 
 /usr/include/python3.6m/structseq.h:
-
-rosidl_generator_c/juno_interfaces/srv/detail/collect_image__functions.h:
 
 /usr/include/python3.6m/pydebug.h:
 
@@ -474,13 +445,9 @@ rosidl_generator_c/juno_interfaces/srv/detail/collect_image__functions.h:
 
 /usr/include/aarch64-linux-gnu/bits/fp-fast.h:
 
-rosidl_generator_c/juno_interfaces/srv/detail/collect_image__type_support.h:
-
 /usr/include/aarch64-linux-gnu/bits/mathcalls.h:
 
 /usr/include/time.h:
-
-rosidl_generator_c/juno_interfaces/srv/detail/collect_image__struct.h:
 
 /usr/include/aarch64-linux-gnu/bits/timex.h:
 
@@ -493,8 +460,6 @@ rosidl_generator_c/juno_interfaces/srv/detail/collect_image__struct.h:
 /usr/include/aarch64-linux-gnu/sys/stat.h:
 
 /usr/include/python3.6m/pymacro.h:
-
-rosidl_generator_c/juno_interfaces/msg/detail/category__struct.h:
 
 /usr/include/aarch64-linux-gnu/bits/stdlib-float.h:
 
@@ -585,5 +550,7 @@ rosidl_generator_c/juno_interfaces/msg/detail/category__struct.h:
 /usr/include/python3.6m/osmodule.h:
 
 /usr/include/python3.6m/intrcheck.h:
+
+rosidl_generator_c/juno_interfaces/srv/detail/toggle__struct.h:
 
 /usr/include/python3.6m/compile.h:

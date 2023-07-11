@@ -1,8 +1,6 @@
 {
   "package_name": "juno_interfaces",
   "non_idl_tuples": [
-    "/juno/ros2_ws/src/juno_interfaces:msg/Category.msg",
-    "/juno/ros2_ws/src/juno_interfaces:srv/Categories.srv",
-    "/juno/ros2_ws/src/juno_interfaces:srv/CollectImage.srv"
+    "/juno/ros2_ws/src/juno_interfaces:srv/Toggle.srv"
   ]
 }

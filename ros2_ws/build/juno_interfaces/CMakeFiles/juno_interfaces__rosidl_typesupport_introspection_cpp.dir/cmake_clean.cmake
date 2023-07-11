@@ -1,18 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/juno_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/juno_interfaces/msg/detail/category__type_support.cpp.o"
-  "CMakeFiles/juno_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/juno_interfaces/msg/detail/category__type_support.cpp.o.d"
-  "CMakeFiles/juno_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/juno_interfaces/srv/detail/categories__type_support.cpp.o"
-  "CMakeFiles/juno_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/juno_interfaces/srv/detail/categories__type_support.cpp.o.d"
-  "CMakeFiles/juno_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/juno_interfaces/srv/detail/collect_image__type_support.cpp.o"
-  "CMakeFiles/juno_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/juno_interfaces/srv/detail/collect_image__type_support.cpp.o.d"
+  "CMakeFiles/juno_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/juno_interfaces/srv/detail/toggle__type_support.cpp.o"
+  "CMakeFiles/juno_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/juno_interfaces/srv/detail/toggle__type_support.cpp.o.d"
   "libjuno_interfaces__rosidl_typesupport_introspection_cpp.pdb"
   "libjuno_interfaces__rosidl_typesupport_introspection_cpp.so"
-  "rosidl_typesupport_introspection_cpp/juno_interfaces/msg/detail/category__rosidl_typesupport_introspection_cpp.hpp"
-  "rosidl_typesupport_introspection_cpp/juno_interfaces/msg/detail/category__type_support.cpp"
-  "rosidl_typesupport_introspection_cpp/juno_interfaces/srv/detail/categories__rosidl_typesupport_introspection_cpp.hpp"
-  "rosidl_typesupport_introspection_cpp/juno_interfaces/srv/detail/categories__type_support.cpp"
-  "rosidl_typesupport_introspection_cpp/juno_interfaces/srv/detail/collect_image__rosidl_typesupport_introspection_cpp.hpp"
-  "rosidl_typesupport_introspection_cpp/juno_interfaces/srv/detail/collect_image__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/juno_interfaces/srv/detail/toggle__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/juno_interfaces/srv/detail/toggle__type_support.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

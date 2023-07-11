@@ -1,10 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/juno_interfaces__rosidl_generator_py.dir/rosidl_generator_py/juno_interfaces/msg/_category_s.c.o"
-  "CMakeFiles/juno_interfaces__rosidl_generator_py.dir/rosidl_generator_py/juno_interfaces/msg/_category_s.c.o.d"
-  "CMakeFiles/juno_interfaces__rosidl_generator_py.dir/rosidl_generator_py/juno_interfaces/srv/_categories_s.c.o"
-  "CMakeFiles/juno_interfaces__rosidl_generator_py.dir/rosidl_generator_py/juno_interfaces/srv/_categories_s.c.o.d"
-  "CMakeFiles/juno_interfaces__rosidl_generator_py.dir/rosidl_generator_py/juno_interfaces/srv/_collect_image_s.c.o"
-  "CMakeFiles/juno_interfaces__rosidl_generator_py.dir/rosidl_generator_py/juno_interfaces/srv/_collect_image_s.c.o.d"
+  "CMakeFiles/juno_interfaces__rosidl_generator_py.dir/rosidl_generator_py/juno_interfaces/srv/_toggle_s.c.o"
+  "CMakeFiles/juno_interfaces__rosidl_generator_py.dir/rosidl_generator_py/juno_interfaces/srv/_toggle_s.c.o.d"
   "rosidl_generator_py/juno_interfaces/libjuno_interfaces__rosidl_generator_py.pdb"
   "rosidl_generator_py/juno_interfaces/libjuno_interfaces__rosidl_generator_py.so"
 )
