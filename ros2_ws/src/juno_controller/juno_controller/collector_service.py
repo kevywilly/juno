@@ -96,7 +96,7 @@ def main():
     rclpy.init()
     svc = CollectImageService()
     rclpy.spin(svc)
-    rclpy.shutdown
+    rclpy.shutdown()
 
 if __name__ == '__main__':
     main()

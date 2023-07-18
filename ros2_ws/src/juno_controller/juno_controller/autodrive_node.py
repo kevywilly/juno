@@ -39,7 +39,7 @@ class AutodriveNode(Node):
         
 
         # publishers
-        self.drivetrain_publisher = self.create_publisher(Twist, '/drivetrain/cmd', 10)
+        self.drivetrain_publisher = self.create_publisher(Twist, '/cmd_vel', 10)
         self.log("Created Drivetrain Publisher")
 
 
@@ -150,4 +150,4 @@ def main(args=None):
     rclpy.spin(node=node)
     node.stop()
     torch.cuda.empty_cache()
-    rclpy.shutdown
+    rclpy.shutdown()

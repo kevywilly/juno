@@ -12,7 +12,7 @@ ExecStartPre=-/bin/systemctl restart nvargus-daemon
 ExecStart=/usr/bin/docker run --runtime nvidia  --name %n \
 --network host \
 --rm \
---device /dev/video0 --device /dev/i2c-0  --device /dev/i2c-1  \
+--device /dev/video0 --device /dev/i2c-0  --device /dev/i2c-1  --device /dev/ttyUSB0 \
 -v /tmp/argus_socket:/tmp/argus_socket -v /ml_data:/ml_data  -v /home/nano/juno:/juno \
 kevywilly/juno:1.0
 ExecStop=/usr/bin/docker stop %n

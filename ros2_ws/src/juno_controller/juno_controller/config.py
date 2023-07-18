@@ -41,7 +41,7 @@ Obstacle3dV2Config = TrainingConfig(
     name="obstacle3dV2",
     model_name="alexnet",
     categories=["left", "right", "forward"],
-    num_cameras=2
+    num_cameras=1
 )
 
 Obstacle2dConfig: TrainingConfig = TrainingConfig(

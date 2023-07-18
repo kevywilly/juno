@@ -137,6 +137,7 @@ fi
 # check for V4L2 devices
 V4L2_DEVICES=""
 I2C_DEVICES=" "
+TTY_DEVICES=" "
 
 for i in {0..9}
 do
@@ -146,6 +147,10 @@ do
 
     if [ -a "/dev/i2c-$i" ]; then
 		I2C_DEVICES="$I2C_DEVICES --device /dev/i2c-$i "
+	fi
+
+    if [ -a "/dev/ttyUSB$i" ]; then
+		TTY_DEVICES="$TTY_DEVICES --device /dev/ttyUSB$i "
 	fi
 done
 
@@ -188,9 +193,10 @@ print_var "USER_COMMAND"
 print_var "V4L2_DEVICES"
 print_var "DISPLAY_DEVICE"
 print_var "I2C_DEVICES"
+print_var "TTY_DEVICES"
 print_var "VOLUMES"
 
 # run the container
 sudo docker run --runtime nvidia -it --rm --network host \
-	$ENVIRONMENT $DISPLAY_DEVICE $V4L2_DEVICES $I2C_DEVICES \
+	$ENVIRONMENT $DISPLAY_DEVICE $V4L2_DEVICES $I2C_DEVICES $TTY_DEVICES\
 	$VOLUMES $USER_VOLUME $CONTAINER_NAME $CONTAINER_IMAGE $USER_COMMAND

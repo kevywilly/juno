@@ -30,8 +30,7 @@ class DrivetrainNode(Node):
         self.motors = [self.m1, self.m2, self.m3, self.m4]
         
         self.get_logger().info("motors started.")
-        self.create_subscription(Twist, "drivetrain/cmd", self.handle_cmd, 10)
-
+        self.create_subscription(Twist, "/cmd_vel", self.handle_cmd, 10)
     def log(self, txt: str):
         self.get_logger().info(txt)
 
@@ -172,4 +171,4 @@ def main(args=None):
     node = DrivetrainNode()
     rclpy.spin(node=node)
     node.stop()
-    rclpy.shutdown
+    rclpy.shutdown()

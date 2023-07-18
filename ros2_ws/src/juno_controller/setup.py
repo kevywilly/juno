@@ -22,7 +22,8 @@ setup(
         'console_scripts': [
             "drivetrain = juno_controller.drivetrain_node:main",
             "api = juno_controller.app:main",
-            "autodrive = juno_controller.autodrive_node:main"
+            "autodrive = juno_controller.autodrive_node:main",
+            "train = juno_controller.trainer_node:main"
         ],
     },
 )

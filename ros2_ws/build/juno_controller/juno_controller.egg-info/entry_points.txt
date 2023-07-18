@@ -2,4 +2,5 @@
 api = juno_controller.app:main
 autodrive = juno_controller.autodrive_node:main
 drivetrain = juno_controller.drivetrain_node:main
+train = juno_controller.trainer_node:main
 

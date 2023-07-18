@@ -19,6 +19,7 @@ juno_controller/image_collector.py
 juno_controller/image_utils.py
 juno_controller/motor.py
 juno_controller/settings.py
+juno_controller/trainer_node.py
 juno_controller/vision_node.py
 juno_controller.egg-info/PKG-INFO
 juno_controller.egg-info/SOURCES.txt
