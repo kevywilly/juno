@@ -611,6 +611,8 @@ _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3.6
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;6;9;64;m;cpython-36m-aarch64-linux-gnu;abi3;/usr/lib/python3.6;/usr/lib/python3.6;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=b6830b8a27b116ec04b91b52a075b840
+//Interpreter reason failure
+_Python3_Interpreter_REASON_FAILURE:INTERNAL=
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
 //Index for unique symlink install targets

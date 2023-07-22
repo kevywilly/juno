@@ -16,7 +16,7 @@ class TrainingConfig(BaseModel):
     num_cameras: int = 1
 
     def get_best_model_path(self, cam_index=1):
-        return f"{BEST_MODELS_ROOT}/{self.name}_{cam_index}.pth"
+        return "/juno/data/models/best/best_model.pth"
 
     def get_data_path(self, cam_index=1):
         return f"{DATASETS_ROOT}/{self.name}_{cam_index}"
@@ -40,7 +40,7 @@ Obstacle3dConfig = TrainingConfig(
 Obstacle3dV2Config = TrainingConfig(
     name="obstacle3dV2",
     model_name="alexnet",
-    categories=["left", "right", "forward"],
+    categories=["forward","left","right"],
     num_cameras=1
 )
 
