@@ -1,1 +1,0 @@
-/juno/ros2_ws/src/test_controller/setup.py

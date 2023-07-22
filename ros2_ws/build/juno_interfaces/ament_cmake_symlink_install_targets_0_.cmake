@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/juno/ros2_ws/build/juno_interfaces/rosidl_generator_py/juno_interfaces/juno_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so" "TARGETS" "juno_interfaces__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.6/site-packages/juno_interfaces")

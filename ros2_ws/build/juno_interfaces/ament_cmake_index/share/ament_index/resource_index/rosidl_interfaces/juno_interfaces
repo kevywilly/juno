@@ -1,4 +1,0 @@
-srv/Toggle.idl
-srv/Toggle.srv
-srv/Toggle_Request.msg
-srv/Toggle_Response.msg

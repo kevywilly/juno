@@ -1,1 +1,0 @@
-/juno/ros2_ws/build/juno_interfaces/rosidl_typesupport_introspection_c/juno_interfaces/srv/detail/collect_image__rosidl_typesupport_introspection_c.h

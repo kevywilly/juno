@@ -1,1 +1,0 @@
-/juno/ros2_ws/build/juno_interfaces/rosidl_cmake/srv/Toggle_Response.msg
