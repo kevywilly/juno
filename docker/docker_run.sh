@@ -169,13 +169,6 @@ if [ -n "$DISPLAY" ]; then
 	DISPLAY_DEVICE="-e DISPLAY=$DISPLAY -v /tmp/.X11-unix/:/tmp/.X11-unix -v $XAUTH:$XAUTH -e XAUTHORITY=$XAUTH"
 fi
 
-VOLUMES=""
-
-if [ -a "/tmp/argus_socket" ]; then
-    VOLUMES="$VOLUMES -v /tmp/argus_socket:/tmp/argus_socket"
-fi
-
-
 # print configuration
 print_var() 
 {
@@ -197,6 +190,12 @@ print_var "TTY_DEVICES"
 print_var "VOLUMES"
 
 # run the container
-sudo docker run --runtime nvidia -it --rm --network host \
+cat /proc/device-tree/model > /tmp/nv_jetson_model
+
+sudo /usr/bin/docker run --runtime nvidia -it --rm --network host \
+    -v /tmp/argus_socket:/tmp/argus_socket \
+    -v /etc/enctune.conf:/etc/enctune.conf \
+    -v /etc/nv_tegra_release:/etc/nv_tegra_release \
+    -v /tmp/nv_jetson_model:/tmp/nv_jetson_model \
 	$ENVIRONMENT $DISPLAY_DEVICE $V4L2_DEVICES $I2C_DEVICES $TTY_DEVICES\
-	$VOLUMES $USER_VOLUME $CONTAINER_NAME $CONTAINER_IMAGE $USER_COMMAND
+	$USER_VOLUME $CONTAINER_NAME $CONTAINER_IMAGE $USER_COMMAND
