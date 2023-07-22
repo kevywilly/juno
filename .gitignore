@@ -3,3 +3,6 @@ nohup.out
 ros2_ws/log
 .vscode
 ros2_ws/src/log
+build
+install
+log
