@@ -13,7 +13,7 @@ def log(txt: str):
     print(f"{txt}")
 
 
-log("hello")
+log("Starting trainer...")
 
 epochs = 60
 
@@ -75,9 +75,6 @@ best_accuracy = 0.0
 if os.path.isfile(BEST_MODEL_PATH):
     print(f"loading best model from {BEST_MODEL_PATH}")
     model.load_state_dict(torch.load(BEST_MODEL_PATH))
-
-
-log(f"\n============ ROUND {round} =================")
 
 device = torch.device('cuda')
 model = model.to(device)

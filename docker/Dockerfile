@@ -27,6 +27,7 @@ RUN cd / && git clone -b humble https://github.com/ros-planning/navigation2.git
 
 COPY ./nginx.conf /etc/nginx/sites-available/default
 COPY ./entrypoint.sh /entrypoint.sh
+COPY ./train.sh /train.sh
 
 ARG CACHEBUST=1
 

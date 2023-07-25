@@ -1,6 +1,8 @@
 [submodule "nano-control"]
 	path = nano-control
+	branch = main
 	url = git@github.com:kevywilly/nano-control.git
 [submodule "ros2_ws/src/sllidar_ros2"]
 	path = ros2_ws/src/sllidar_ros2
+	branch = main
 	url = https://github.com/Slamtec/sllidar_ros2.git
