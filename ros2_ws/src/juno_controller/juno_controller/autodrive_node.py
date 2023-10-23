@@ -7,7 +7,7 @@ from juno_interfaces.srv import Toggle
 from sensor_msgs.msg import Image
 from juno_controller.image_utils import (sensor_image_to_cuda, resize_cuda)
 from juno_controller.settings import settings
-from juno_controller.config import TrainingConfig, MODELS_ROOT, BEST_MODELS_ROOT
+
 import os
 import numpy as np
 import torch
@@ -16,7 +16,7 @@ import torchvision
 from juno_controller.drive_commands import apply_drive_cmd
 from enum import Enum
 
-torch.hub.set_dir(MODELS_ROOT)
+torch.hub.set_dir(settings.training_config.get_models_root())
 
 class DriveState(Enum):
     STOPPED = 0
@@ -27,9 +27,9 @@ class AutodriveNode(Node):
 
     def __init__(self):
         super().__init__("autodrive_node")
-
+        
         self.log("Started autodrive node.")
-        self.config = settings.default_model
+        self.config = settings.training_config
         self.drive_state = DriveState.STOPPED
         self.mean = 255.0 * np.array([0.485, 0.456, 0.406])
         self.stdev = 255.0 * np.array([0.229, 0.224, 0.225])
@@ -118,7 +118,7 @@ class AutodriveNode(Node):
         return output
 
     def _assign_predictions(self, y, categories):
-        categories = sorted(settings.default_model.categories.copy())
+        categories = sorted(settings.training_config.categories.copy())
         d = {}
         for index, cat in enumerate(categories):
             d[cat] = float(y.flatten()[index])
@@ -132,7 +132,7 @@ class AutodriveNode(Node):
 
         y = self.predict(sensor_image)
 
-        predictions = self._assign_predictions(y, settings.default_model.categories)
+        predictions = self._assign_predictions(y, settings.training_config.categories)
 
         k,v = predictions[0]
 

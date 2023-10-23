@@ -53,7 +53,7 @@ class JunoApiNode(Node):
         try:
             self.get_logger().info(f"received collect image request {category}")
             img = self.get_jpeg()
-            return self.collector.collect(category, [img,img])
+            return self.collector.collect(category, img)
         
         except Exception as ex:
             self.get_logger().error(str(ex))
@@ -156,14 +156,14 @@ def category_images(category: str):
 
 @app.get('/api/categories/<category>/images/<name>')
 def get_image(category, name):
-    bytes_str = app_node.collector.load_image(category, name, 1)
+    bytes_str = app_node.collector.load_image(category, name)
     response = flask.make_response(bytes_str)
     response.headers.set('Content-Type', 'image/jpeg')
     return response
 
 @app.get('/api/categories/<category>/images/<name>/<cam_index>')
 def get_image2(category, name, cam_index):
-    bytes_str = app_node.collector.load_image(category, name, int(cam_index))
+    bytes_str = app_node.collector.load_image(category, name)
     response = flask.make_response(bytes_str)
     response.headers.set('Content-Type', 'image/jpeg')
     return response

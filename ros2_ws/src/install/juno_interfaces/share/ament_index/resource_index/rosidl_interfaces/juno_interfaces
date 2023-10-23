@@ -1,4 +1,0 @@
-srv/CollectImage.idl
-srv/CollectImage.srv
-srv/CollectImage_Request.msg
-srv/CollectImage_Response.msg

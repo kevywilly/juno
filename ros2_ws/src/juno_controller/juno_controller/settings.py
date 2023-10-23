@@ -1,18 +1,7 @@
 from pydantic import BaseSettings, BaseModel
 from typing import List, Optional, Any
 
-from juno_controller.config import (TrainingConfig, Obstacle3dV2Config)
-
-class CalibrationSettings(BaseSettings):
-    base_folder: str = "/home/nano/nano-ml/data/calibration"
-    model_folder: str = "/home/nano/nano-ml/data/calibration/models"
-    model_file: str = "/home/nano/nano-ml/data/calibration/models/camera_model.xml"
-    rectification_model_file: str = "/home/nano/nano-ml/data/calibration/models/rectification_model.xml"
-    d3_map_file: str = "/home/nano/nano-ml/data/calibration/models/3dmap.xml"
-
-    output_folder = f"{base_folder}/images/output"
-    right_folder = f"{base_folder}/images/stereo/right"
-    left_folder = f"{base_folder}/images/stereo/left"
+from juno_controller.training_config import (TrainingConfig, Obstacle3dConfig)
 
 class AppSettings(BaseSettings):
 
@@ -30,11 +19,9 @@ class AppSettings(BaseSettings):
 
     # Training Settings
 
-    default_model: TrainingConfig = Obstacle3dV2Config 
+    training_config: TrainingConfig = Obstacle3dConfig 
     retrain_model: bool = True
     default_epochs: int = 30
-    default_retrain_epochs: int = 10
-    led_pins: List[int] = [200,38]
 
     # Input Settings
 
@@ -53,4 +40,3 @@ class AppSettings(BaseSettings):
     detect_net_threshold: float = 0.5
 
 settings = AppSettings()
-calibration_settings = CalibrationSettings()

@@ -1,4 +1,0 @@
-[console_scripts]
-camera_node = juno_controller.camera_node:main
-drivetrain_node = juno_controller.drivetrain_node:main
-

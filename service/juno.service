@@ -5,12 +5,9 @@ Requires=docker.service
  
 [Service]
 Type=simple
-User=root
-ExecStartPre=-/usr/bin/docker exec juno.service stop
-ExecStartPre=-/usr/bin/docker rm juno.service
-ExecStartPre=-/bin/systemctl restart nvargus-daemon
-ExecStart=/home/juno/docker/run_juno.sh
-ExecStop=/usr/bin/docker stop juno.service
+User=nano
+ExecStart=/home/nano/juno/service/runjuno
+
  
 [Install]
 WantedBy=multi-user.target

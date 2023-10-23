@@ -1,0 +1,3 @@
+<launch>
+<node pkg="juno_controller" exec="train" output="screen"/>
+</launch>
